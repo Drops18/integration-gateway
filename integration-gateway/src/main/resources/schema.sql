@@ -1,0 +1,4 @@
+CREATE TABLE IF NOT EXISTS hello_message (
+    id BIGINT PRIMARY KEY,
+    content VARCHAR(255) NOT NULL
+);

@@ -1,0 +1,41 @@
+# IntelliJ
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Java / Spring Boot
+target/
+*.class
+*.jar
+*.war
+*.ear
+
+# Maven / Gradle
+.mvn/wrapper/maven-wrapper.jar
+.gradle/
+build/
+
+# Node / React
+node_modules/
+dist/
+build/
+.env
+.env.*
+!.env.example
+
+# Local Spring config
+application-local.properties
+application-local.yml
+src/main/resources/application-local.properties
+src/main/resources/application-local.yml
+**/application-local.properties
+**/application-local.yml
+
+# Logs
+logs/
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
